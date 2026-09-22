@@ -1,0 +1,32 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "Greedy Decoding Is Not Precision-Invariant",
+  "description": "Official code for the TMLR 2026 paper on BF16/FP16 output divergence in LLM greedy decoding and selective FP32 lm_head recomputation.",
+  "codeRepository": "https://github.com/Hiramdu/greedy-decoding-cross-precision-divergence",
+  "issueTracker": "https://github.com/Hiramdu/greedy-decoding-cross-precision-divergence/issues",
+  "url": "https://openreview.net/forum?id=QDOKyg7a5e",
+  "datePublished": "2026-09-01",
+  "programmingLanguage": "Python",
+  "runtimePlatform": "Linux, CUDA, Python 3.10+",
+  "applicationCategory": "Machine learning research software",
+  "keywords": [
+    "large language models",
+    "LLM inference",
+    "greedy decoding",
+    "numerical precision",
+    "BF16",
+    "FP16",
+    "cross-precision divergence",
+    "reproducibility"
+  ],
+  "author": [
+    { "@type": "Person", "givenName": "Gaoyuan", "familyName": "Du" },
+    { "@type": "Person", "givenName": "Anam Nawaz", "familyName": "Khan" },
+    { "@type": "Person", "givenName": "Rex", "familyName": "Zhou" },
+    { "@type": "Person", "givenName": "Xiaoyang", "familyName": "Liu" },
+    { "@type": "Person", "givenName": "Deepayan", "familyName": "Chakrabarti" },
+    { "@type": "Person", "givenName": "Fnu", "familyName": "Suya" },
+    { "@type": "Person", "givenName": "Xueping", "familyName": "Li" }
+  ]
+}

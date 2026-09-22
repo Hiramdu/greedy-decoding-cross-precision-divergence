@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the TMLR paper."
+title: "Greedy Decoding Is Not Precision-Invariant: Cross-Precision Output Divergence in LLM Inference"
+type: software
+authors:
+  - family-names: Du
+    given-names: Gaoyuan
+  - family-names: Khan
+    given-names: Anam Nawaz
+  - family-names: Zhou
+    given-names: Rex
+  - family-names: Liu
+    given-names: Xiaoyang
+  - family-names: Chakrabarti
+    given-names: Deepayan
+  - family-names: Suya
+    given-names: Fnu
+  - family-names: Li
+    given-names: Xueping
+repository-code: "https://github.com/Hiramdu/greedy-decoding-cross-precision-divergence"
+url: "https://openreview.net/forum?id=QDOKyg7a5e"
+date-released: 2026-09-01
+preferred-citation:
+  type: article
+  title: "Greedy Decoding Is Not Precision-Invariant: Cross-Precision Output Divergence in LLM Inference"
+  authors:
+    - family-names: Du
+      given-names: Gaoyuan
+    - family-names: Khan
+      given-names: Anam Nawaz
+    - family-names: Zhou
+      given-names: Rex
+    - family-names: Liu
+      given-names: Xiaoyang
+    - family-names: Chakrabarti
+      given-names: Deepayan
+    - family-names: Suya
+      given-names: Fnu
+    - family-names: Li
+      given-names: Xueping
+  journal: "Transactions on Machine Learning Research"
+  year: 2026
+  issn: "2835-8856"
+  url: "https://openreview.net/forum?id=QDOKyg7a5e"

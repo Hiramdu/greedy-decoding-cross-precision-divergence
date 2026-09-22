@@ -1,0 +1,31 @@
+# Greedy Decoding Is Not Precision-Invariant
+
+Official code for the accepted 2026 Transactions on Machine Learning Research
+paper “Greedy Decoding Is Not Precision-Invariant: Cross-Precision Output
+Divergence in LLM Inference.”
+
+The work shows that BF16 and FP16 greedy decoding can produce different LLM
+outputs even with the same model, prompt, hardware, and decoding algorithm. It
+studies top-two logit margins and selective FP32 output-head recomputation.
+
+## Canonical links
+
+- Paper: https://openreview.net/forum?id=QDOKyg7a5e
+- PDF: https://openreview.net/pdf?id=QDOKyg7a5e
+- Code: https://github.com/Hiramdu/greedy-decoding-cross-precision-divergence
+- TMLR index: https://jmlr.org/tmlr/papers/
+
+## Repository map
+
+- README.md: project overview, results, setup, and usage
+- run_core_experiment.py: BF16/FP16 baseline and Intervention C experiment
+- requirements.txt: Python dependencies
+- paper.bib: canonical TMLR BibTeX
+- CITATION.cff: GitHub citation metadata
+- codemeta.json: structured software metadata
+
+## Search concepts
+
+LLM inference, greedy decoding, numerical precision, BF16, FP16, FP32,
+cross-precision output divergence, top-two logit margin, deterministic
+decoding, reproducibility, selective lm_head recomputation.

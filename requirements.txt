@@ -1,0 +1,4 @@
+torch>=2.1
+transformers>=4.37,<5
+datasets>=2.14
+accelerate>=0.25
