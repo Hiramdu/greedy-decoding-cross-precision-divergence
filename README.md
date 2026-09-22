@@ -131,4 +131,5 @@ environment when reporting results.
 
 ## Contact
 
-For questions about the code or paper, open a GitHub issue.
+For questions, suggestions, or collaboration opportunities, please contact
+Gaoyuan Du at [gaoyuan.du@utk.edu](mailto:gaoyuan.du@utk.edu).
